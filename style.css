@@ -1,0 +1,245 @@
+/* =========================
+   MAIN APP
+========================= */
+
+.stApp {
+
+    background: #081426;
+    color: #f8fafc;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+section[data-testid="stSidebar"] {
+
+    background: #06101f;
+    border-right: 1px solid #16243d;
+}
+
+section[data-testid="stSidebar"] .block-container {
+
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* =========================
+   LOGO
+========================= */
+
+h3 {
+
+    color: #ffffff !important;
+    font-weight: 700;
+}
+/* Sidebar width */
+section[data-testid="stSidebar"] {
+    min-width: 200px !important;
+    max-width: 200px !important;
+}
+section[data-testid="stSidebar"] .block-container {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    padding-top: 12px !important;
+
+}
+/* =========================
+   NAVIGATION BUTTONS
+========================= */
+
+section[data-testid="stSidebar"] .stButton button {
+
+    width: 100%;
+
+    height: 34px !important;
+
+    min-height: 34px !important;
+
+    border-radius: 8px !important;
+
+    background: transparent;
+
+    border: 1px solid #1d3152;
+
+    color: white;
+
+    font-weight: 600;
+
+    margin-bottom: 2px !important;
+}
+
+section[data-testid="stSidebar"] .stButton button:hover {
+
+    background: transparent;
+
+    border: 1px solid #2563eb !important;
+
+    color: white !important;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.hero-header {
+
+    margin-bottom: 15px;
+}
+
+.hero-header h1 {
+
+    color: white;
+
+    font-size: 30px;
+
+    margin-bottom: 4px;
+}
+
+.hero-header p {
+
+    color: #94a3b8;
+
+    font-size: 15px;
+}
+
+/* =========================
+   UPLOAD BOX
+========================= */
+
+[data-testid="stFileUploader"] {
+
+    background: #0f1c33;
+
+    border: 1px solid #1d3152;
+
+    border-radius: 14px;
+
+    padding: 10px;
+}
+
+/* =========================
+   GENERATE BUTTON
+========================= */
+
+.stButton > button {
+
+    background: linear-gradient(
+        90deg,
+        #06b6d4,
+        #2563eb
+    );
+
+    border: none;
+
+    color: white;
+
+    border-radius: 12px;
+
+    font-weight: 700;
+}
+
+.stButton > button:hover {
+
+    transform: translateY(-1px);
+
+    box-shadow:
+    0 0 20px
+    rgba(37,99,235,0.4);
+}
+
+/* =========================
+   METRIC CARDS
+========================= */
+
+[data-testid="metric-container"] {
+
+    background: #0f1c33;
+
+    border: 1px solid #1d3152;
+
+    border-radius: 14px;
+
+    padding: 14px;
+
+    box-shadow: none;
+}
+
+/* =========================
+   DATAFRAME
+========================= */
+
+[data-testid="stDataFrame"] {
+
+    border: none !important;
+
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* =========================
+   PLOTLY CHARTS
+========================= */
+
+.js-plotly-plot {
+
+    background: #dbe5f6 !important;
+
+    border-radius: 14px;
+}
+
+/* =========================
+   SUBHEADINGS
+========================= */
+
+h2, h3 {
+
+    color: white !important;
+}
+
+/* =========================
+   ALERTS
+========================= */
+
+.stSuccess {
+
+    border-left: 5px solid #22c55e;
+}
+
+.stError {
+
+    border-left: 5px solid #ef4444;
+}
+
+/* =========================
+   SCROLLBAR
+========================= */
+
+::-webkit-scrollbar {
+
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #2563eb;
+
+    border-radius: 10px;
+}
+.block-container{
+    padding-top: 0.5rem !important;
+    padding-bottom: 0rem !important;
+}
+
+/* Remove gap around Streamlit dataframe */
+div[data-testid="stDataFrame"] {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+div[data-testid="stDataFrame"] > div {
+    padding: 0 !important;
+    margin: 0 !important;
+}
