@@ -183,12 +183,16 @@ section[data-testid="stSidebar"] .stButton button:hover {
    PLOTLY CHARTS
 ========================= */
 
-.js-plotly-plot {
-
-    background: #dbe5f6 !important;
-
-    border-radius: 14px;
+.js-plotly-plot,
+.js-plotly-plot .plot-container,
+.js-plotly-plot .svg-container {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
 }
+
+
 
 /* =========================
    SUBHEADINGS

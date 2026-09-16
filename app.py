@@ -402,7 +402,7 @@ if st.session_state.report_generated:
 
 
     left, right = st.columns(
-        [1.2, 1]
+        [1, 1.1]
     )
 
 
@@ -465,8 +465,11 @@ if st.session_state.report_generated:
 
 
         fig.update_layout(
+            width=450,
             height=300,
-            margin=dict(l=20, r=20, t=20, b=20) 
+            margin=dict(l=20, r=20, t=20, b=20),
+            paper_bgcolor="#081426",
+            plot_bgcolor="#081426"
             
             
         )
@@ -480,7 +483,7 @@ if st.session_state.report_generated:
 
         st.plotly_chart(
             fig,
-            use_container_width=True,
+            use_container_width=False,
             height=300
         )
 
