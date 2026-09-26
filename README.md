@@ -6,7 +6,7 @@ A web-based code plagiarism detection system that analyzes and compares source c
 
 (https://codesentinel12.streamlit.app/)
 
- ✨ Features
+✨ Features
 
 - 🐍 Supports Python, C, C++, and Java
 - 🔍 Text and AST-based similarity analysis
@@ -18,7 +18,7 @@ A web-based code plagiarism detection system that analyzes and compares source c
 - 📄 PDF report generation
 - 🕒 Comparison history
 
- 🛠️ Technologies Used
+🛠️ Technologies Used
 
 - Python
 - Streamlit
@@ -27,21 +27,21 @@ A web-based code plagiarism detection system that analyzes and compares source c
 - AST
 - Winnowing Algorithm
 
- 🚀 How to Run Locally
+🚀 How to Run Locally
 
 1. Clone the repository
-   ```bash
-  git clone https://github.com/chaboo12/CodeSentinel.git
-  cd CodeSentinel
 
-3. Install dependencies
-   pip install -r requirements.txt
+```bash
+git clone https://github.com/chaboo12/CodeSentinel.git
+cd CodeSentinel
 
-4. Run the application
-   streamlit run app.py
+2. Install dependencies
+pip install -r requirements.txt
+
+3. Run the application
+streamlit run app.py
 
 📁 Project Structure
-
 CodeSentinel/
 ├── app.py
 ├── database.py
