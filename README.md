@@ -30,15 +30,15 @@ A web-based code plagiarism detection system that analyzes and compares source c
  🚀 How to Run Locally
 
 1. Clone the repository
+   ```bash
+  git clone https://github.com/chaboo12/CodeSentinel.git
+  cd CodeSentinel
 
-git clone https://github.com/chaboo12/CodeSentinel.git
-cd CodeSentinel
+3. Install dependencies
+   pip install -r requirements.txt
 
-2. Install dependencies
-pip install -r requirements.txt
-
-3. Run the application
-streamlit run app.py
+4. Run the application
+   streamlit run app.py
 
 📁 Project Structure
 
